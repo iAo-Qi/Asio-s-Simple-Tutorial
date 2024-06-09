@@ -1,6 +1,9 @@
 ﻿#include <iostream>
 #include <asio.hpp>
 
+/// <summary>
+/// 日期2024年6月8日
+/// </summary>
 void ASIObase()
 {
 	//构造函数address(ip v4 || v6转换为地址) 
@@ -28,6 +31,9 @@ void ASIObase()
 	return;
 }
 
+/// <summary>
+/// 日期2024年6月9日
+/// </summary>
 void ASiOHostResolver() 
 {
 	//在过去较老的版本里可能会使用 io_service 当然现在也兼容asio::io_service
